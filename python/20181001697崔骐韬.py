@@ -22,3 +22,6 @@ def movmean(x,halfwin):
                 inds=np.arange(i-m,n)
                 y[i]=(np.sum(x[inds]))/len(inds)
     return y
+#x=np.array([1,2,3,4,5])
+#movemean(x, 2)
+#Out[52]: array([2. , 2.5, 3. , 3.5, 4. ])
